@@ -16,13 +16,12 @@ ul {
     width: 95%;
     display: flex;
     justify-content: space-between;
-    list-style: none;
+    list-style: none; 
     position: fixed;
 }
 
 .img-topo {
     height: 25px;
-
 }
 
 video {
@@ -92,7 +91,6 @@ video {
     position: absolute;
     top: 70px;
     right: 10px;
-
 }
 
 .modal {
@@ -104,7 +102,6 @@ video {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
-
 }
 
 .modal-conteudo {
@@ -113,4 +110,48 @@ video {
     padding: 20px;
     width: 60%;
     color: white;
+} 
+
+@media screen and (max-width: 1134px){ 
+    
+  body {
+    position: relative;
+  }
+
+  ul { 
+    position: relative;
+  }
+
+  .capa {
+    width: 80%;
+    bottom: 28%;
+  }
+
+  .capa-titulo {
+    font-size:30px;
+  }
+  
+  .capa-descrição {
+    font-size: 15px;
+  }
+  video {
+    position: relative;
+  }
+
+  .link-assistir {
+    padding: 5px 10px;
+  }
+
+  .link-info {
+    padding: 5px 10px;
+  }
+
+  #carouselExampleControls {
+    position: relative;
+    left: 0;
+  }
+
+  .imagem-carrossel  {
+    height: 80px; 
+  }
 }
